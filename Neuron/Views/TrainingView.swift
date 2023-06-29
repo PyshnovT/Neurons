@@ -20,7 +20,7 @@ struct TrainingView: View {
     
     var body: some View {
         VStack {
-            Text("Finshed Training: \(String(reporter.finished))")
+            Text("Finished Training: \(String(reporter.finished))")
                 .font(.title)
                 .padding()
             
